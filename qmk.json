@@ -1,12 +1,20 @@
 {
     "userspace_version": "1.1",
     "build_targets": [
-       [
-            "splitkb/halcyon,kyria",
+        [
+            "splitkb/halcyon/kyria/rev4",
             "damga123_hlc",
             {
                 "HLC_CIRQUE_TRACKPAD": "1",
-                "TARGET": "kyria_halycon_trackpad"
+                "TARGET": "kyria_rev4_right_trackpad"
+            }
+        ],
+        [
+            "splitkb/halcyon/kyria/rev4",
+            "damga123_hlc",
+            {
+                "HLC_NONE": "1",
+                "TARGET": "kyria_rev4_left"
             }
         ]
     ]
